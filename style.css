@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(fondo.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.card {
+    background-color: rgba(255, 255, 255, 0.70);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 15px 4px 15px rgba(0, 0, 0,0.1);
+    text-align: center;
+    width: 300px;
+    z-index: 2;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+.profile-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Sombra sutil */
+  background-color: #eee;
+}
+
+/*imagen de perfil*/
+.profile-img img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.profile-img img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+}
+h1 {
+    margin: 10px 0 5px;
+    font-size: 22px;
+}
+
+p {
+    margin: 5px 0;
+    color: #555;
+}
+.bottons {
+    margin-top: 20px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px auto;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    width: 80%;
+    transition: transform 0.3s ease, box-shadow 0.2s ease;
+    font-size: 16px;
+    text-align: left;
+    cursor: pointer
+}
+
+.btn i {
+    margin-right: 10px;
+    color: white;
+}
+.btn i{
+    font-size: 20px;
+}
+.btn:active {
+    transform: scale(0.95);
+}
+/*WhatsApp*/
+.btn.whatsapp{
+    background-color: #25D366;
+}
+.btn.whatsapp:hover{
+    box-shadow: 4px 4px 10px rgba(37,211, 102, 0.4);
+}
+/*Email*/
+.btn.email {
+  background-color: #febb2f;
+}
+
+.btn.email:hover {
+  box-shadow: 4px 4px 10px rgba(244, 162, 97, 0.4);
+}
+/*Website*/
+.btn.website {
+  background-color: #ba2334;
+}
+
+.btn.website:hover {
+  box-shadow: 4px 4px 10px rgba(169,24,51);
+}
+/*LinkedIn*/
+.btn.linkedin {
+  background-color: #0077b5;
+}
+
+.btn.linkedin:hover {
+  box-shadow: 4px 4px 10px rgba(0, 119, 181, 0.4);
+}
